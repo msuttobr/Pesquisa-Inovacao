@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 60px;
+    background-color: #000000;
+}
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .container h1 {
+    display: flex;
+    color: #32B9CD;
+    justify-content: space-between;
+}
+.header .container ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header .container a {
+    color: orange;
+    text-decoration: none;
+}
