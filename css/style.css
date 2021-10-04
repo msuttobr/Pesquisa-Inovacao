@@ -13,6 +13,8 @@ body {
 .header {
     height: 60px;
     background-color: #000000;
+    border-style: solid;
+    border-color: #00FFFF;
 }
 .header .container {
     height: 100%;
@@ -25,15 +27,78 @@ body {
     color: #32B9CD;
     justify-content: space-between;
 }
-.header .container ul {
+.header .container .header-navigation {
     width: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .header .container a {
     color: orange;
     text-decoration: none;
+}
+
+
+.banner {
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("https://www.estudokids.com.br/wp-content/uploads/2018/11/galaxia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .message {
+    width: 30%;
+    margin-right: 100px;
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: justify;
+}
+.proposito {
+    margin: 100px 0;
+}
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proposito .container h2 {
+
+}
+.proposito .container .mvv {
+    width: 100%;
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.proposito .container .mvv div {
+    max-width: 360px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.proposito .container .mvv div p {
+    text-align: justify;
+}
+.proposito .container .mvv div img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
