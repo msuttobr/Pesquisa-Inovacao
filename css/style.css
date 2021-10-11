@@ -13,7 +13,7 @@ body {
 .header {
     height: 60px;
     background-color: #000000;
-    border-style: solid;
+    border-bottom-style: solid;
     border-color: #00FFFF;
 }
 .header .container {
@@ -33,7 +33,6 @@ body {
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    flex-wrap: wrap;
 }
 
 .header .container a {
@@ -43,14 +42,13 @@ body {
 
 
 .banner {
-    height: 500px;
+    height: 600px;
     
     display: flex;
     align-items: center;
     justify-content: center;
 
     background-image: url("https://www.estudokids.com.br/wp-content/uploads/2018/11/galaxia.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .banner .message {
@@ -61,28 +59,24 @@ body {
     text-align: justify;
 }
 .proposito {
-    margin: 100px 0;
+    margin: 64px 0;
+}
+.proposito .proposito-title {
+    text-align: center;
 }
 .proposito .container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-.proposito .container h2 {
-
-}
 .proposito .container .mvv {
-    width: 100%;
     margin-top: 64px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 .proposito .container .mvv div {
-    max-width: 360px;
-    margin-bottom: 32px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +92,51 @@ body {
 
 
 .footer .container {
+    height: 100px;
+    background-color: #32B9CD;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* login.html */
+.banner .form {
+    width: 20%;
+    padding: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner .form h2 {
+    color: white;
+}
+
+.banner .form div {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+.banner .form div p {
+    color: white;
+}
+
+.banner .form div input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E6005A;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner .form button {
+    background-color: #E6005A;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
